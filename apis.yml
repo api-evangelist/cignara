@@ -1,7 +1,25 @@
 aid: cignara
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cignara.png
 name: Cignara
-description: Cignara is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cignara is an enterprise AI platform that replaces traditional customer support
+  (FAQ bots and IVR menus) with governed voice and chat AI agents that serve, sell, and grow.
+  Its agents handle inbound and outbound phone and chat conversations end to end across 32+
+  languages, pulling customer context, applying business policy, executing transactions
+  (checkout, scheduling, refunds, retention), and offering a real-time human copilot for
+  support teams. The platform emphasizes in-region data sovereignty and hallucination-free,
+  policy-bound actions grounded in each enterprise's own knowledge base. Founded 2026
+  (Y Combinator, Spring 2026) in San Francisco; legal entity ShopAdvisor Inc.
 url: https://raw.githubusercontent.com/api-evangelist/cignara/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +27,35 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment: no public API or developer surface as of 2026-07-18 (pre-product-API stage);
+  identity + verified link-properties + domain-security probe only.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Conversational AI
+- Customer Support
+- Voice Agents
+- Chat Agents
+- Contact Center
+- Enterprise AI
+- AI Agents
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cignara-domain-security.yml
+- type: Website
+  url: https://cignara.com
+- type: PrivacyPolicy
+  url: https://cignara.com/privacy-policy
+- type: TermsOfService
+  url: https://cignara.com/terms-of-use
+- type: TrustCenter
+  url: https://trust.cignara.com
+- type: SignUp
+  url: https://calendly.com/steve-cignara/30min
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
