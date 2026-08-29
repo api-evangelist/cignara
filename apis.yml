@@ -32,6 +32,8 @@ description: Cignara is an enterprise AI platform that replaces traditional cust
   policy-bound actions grounded in each enterprise's own knowledge base. Founded 2026
   (Y Combinator, Spring 2026) in San Francisco; legal entity ShopAdvisor Inc.
 url: https://raw.githubusercontent.com/api-evangelist/cignara/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
